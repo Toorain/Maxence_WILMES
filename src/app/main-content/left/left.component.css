@@ -1,0 +1,17 @@
+mat-tab-group {
+  width: 100%;
+  min-height: 600px;
+}
+
+.left-skill {
+  text-align: left;
+}
+
+.right-skill {
+  text-align: right;
+}
+
+.mat-tab-labels {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+<div class="text-center">
+    <h1 class="sub-title">All my cool projects</h1>
+    <small>(scroll to see more)</small> 
+  </div> 
+<mat-grid-list cols="1" rowHeight="2:1">  
+  <mat-grid-tile *ngFor="let project of projects">
+    <p class="lower-title">{{ project.name }}</p>
+    <img src="../../../assets/img/{{ project.image }}" alt="{{ project.alt }}">
+    <div class="d-flex justify-content-around align-items-baseline w-50">
+      <a class="d-flex align-items-center" href="{{ project.anchorLive }}" target="_blank">Live<i class="material-icons md-36">launch</i></a>
+      <a class="d-flex align-items-center" href="{{ project.anchorCode }}" target="_blank">Code<i class="material-icons md-36">code</i></a>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
+  

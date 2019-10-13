@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+* {
+  font-family: 'Orbitron';
+}
+
+.title {
+  font-family: 'Orbitron';
+  font-size: 4em;
+  text-align: center;
+}
+
+mat-tab-group {
+  height: 100%;
+  min-height: 400px;
+}
+
+.mat-tab-body-content {
+  overflow: hidden !important;
+}
+
+app-center {
+  display: flex;
+}
+
+mat-grid-list{
+  flex-wrap: wrap;
+}
+
+.h100 {
+  height: 100%;
+}

@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* ---------------TEXT-------------------- */
+
+* {
+  font-family: 'Orbitron';
+}
+
+.title {
+  padding-top: 5%;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 2em;
+}
+
+.lower-title {
+  font-size: 1.5em;
+}
+
+a:hover, a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+/* ---------------TEXT-------------------- */
+
+.mat-tab-body-content {
+  overflow: hidden !important;
+}
+
+app-left {
+  width: 80%;
+}
+
+app-center{
+  height: 100%;
+  justify-content: center;
+}
+
+app-right {
+  width: 100%;
+}
+
+mat-grid-list{
+  flex-wrap: wrap;
+}
+
+.mat-tab-label-content {
+  font-size: 2em;
+}
+
+.mat-tab-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mat-figure, .mat-grid-tile {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------MATERIAL ICONS RULES-------------------- */
+
+.md-18 { font-size: 18px; }
+.md-24 { font-size: 24px; }
+.md-36 { font-size: 36px; }
+.md-48 { font-size: 48px; }
+
+/* --------------MATERIAL ICONS RULES-------------------- */
+
