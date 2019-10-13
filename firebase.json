@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "CVMaxence",
+      "public": "dist/CVMaxence",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
