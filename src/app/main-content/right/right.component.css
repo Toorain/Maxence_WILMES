@@ -4,13 +4,18 @@
 }
 
 img {
-    width: 350px;
+    width: 200px;
     height: 200px;
+    border-radius: 100%;
 }
 
 mat-grid-list {
     height: 700px;
     overflow: auto;
     padding: 0 !important;
+}
+
+.lower-title {
+    text-align: center;
 }
 
