@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoadingComponent } from './loading/loading.component';
 import { MainComponent } from './main-content/main.component';
 import { ContactComponent } from './contact/contact.component';
+import { CvPdfComponent } from './cv-pdf/cv-pdf.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ContactComponent } from './contact/contact.component';
     RightComponent,
     LoadingComponent,
     MainComponent,
-    ContactComponent
+    ContactComponent,
+    CvPdfComponent
   ],
   imports: [
     BrowserModule,
