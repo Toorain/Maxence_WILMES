@@ -5,8 +5,8 @@
 <section class="d-flex flex-wrap row">  
   <div *ngFor="let project of projects" class="d-flex flex-column align-items-center col m-3">
     <p class="lower-title">{{ project.name }}</p>
-    <img src="../../../assets/img/{{ project.image }}" alt="{{ project.alt }}">
-    <div class="d-flex justify-content-between align-items-baseline w-100">
+    <a href="{{ project.anchorLive }}" target="_blank"><img src="../../../assets/img/{{ project.image }}" alt="{{ project.alt }}"></a>
+    <div class="d-flex justify-content-between align-items-baseline w-100 m-3">
       <a class="d-flex align-items-center" href="{{ project.anchorLive }}" target="_blank">Live<i class="material-icons md-36">launch</i></a>
       <a class="d-flex align-items-center" href="{{ project.anchorCode }}" target="_blank">Code<i class="material-icons md-36">code</i></a>
     </div>

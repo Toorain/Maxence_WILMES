@@ -1,0 +1,26 @@
+<section class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">    
+    <form class="d-flex flex-column justify-content-center align-items-center h-100 col-sm-6">
+        <mat-chip-list aria-label="Color selection" class="w-100 mb-5">
+            <mat-chip selected class="w-100 resize">
+                <p class="w-100 m-auto text-center">Attention ce formulaire n'est pas encore fonctionnel</p>
+            </mat-chip>
+        </mat-chip-list>        
+        <mat-form-field class="w-100">
+            <label for="name">Name :</label>
+            <input matInput placeholder="Enter your name" id="name" class="w-100">
+        </mat-form-field>
+        <mat-form-field class="w-100">
+            <label for="email">Email :</label>
+            <input matInput placeholder="Enter your email" id="email" required class="w-100">   <!-- [formControl]="email" Create an issue where the input is red by default, need to check on this-->
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+        <mat-form-field class="w-100">
+            <label for="text">Text :</label>
+            <textarea matInput placeholder="Text" class="w-100" rows="10"></textarea>
+        </mat-form-field>
+        <div class="d-flex justify-content-between align-items-center w-100">
+            <a href="" [routerLink]="['/main']" routerLinkActive="router-link-active" class="lower-title">Back to main page</a>
+            <button mat-raised-button color="primary" type="submit" class="w-25 align-self-end">Send</button>
+        </div>        
+    </form>
+</section>

@@ -1,0 +1,8 @@
+mat-form-field {
+    display: flex;
+}
+
+.resize {
+  height: 60px;
+  border-radius: 30px;
+}
