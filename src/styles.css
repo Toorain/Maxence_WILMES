@@ -114,3 +114,6 @@ mat-grid-list{
 
 /* --------------MATERIAL ICONS RULES-------------------- */
 
+mat-form-field {
+  color: red;
+}

@@ -6,21 +6,21 @@
             </mat-chip>
         </mat-chip-list>
         <mat-form-field class="w-100">
-            <label for="name">Name :</label>
-            <input matInput placeholder="Enter your name" id="name" class="w-100">
+            <input matInput id="name" class="w-100">
+            <mat-placeholder>Your name :</mat-placeholder>
         </mat-form-field>
         <mat-form-field class="w-100">
-            <label for="email">Email :</label>
-            <input matInput placeholder="Enter your email" id="email" required class="w-100">   <!-- [formControl]="email" Create an issue where the input is red by default, need to check on this-->
+            <input matInput id="email" required class="w-100">   <!-- [formControl]="email" Create an issue where the input is red by default, need to check on this-->
+            <mat-placeholder>Your mail</mat-placeholder>
             <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
         </mat-form-field>
         <mat-form-field class="w-100">
-            <label for="text">Text :</label>
-            <textarea matInput placeholder="Text" class="w-100" rows="5"></textarea>
+            <textarea matInput class="w-100" rows="5"></textarea>
+            <mat-placeholder>Your message</mat-placeholder>
         </mat-form-field>
-        <mat-form-field class="d-flex justify-content-around align-items-center w-100">        
+        <div class="d-flex justify-content-around align-items-center w-100">        
             <a href="" [routerLink]="['/main']" routerLinkActive="router-link-active" class="lower-title">Back to main page</a>
             <button mat-raised-button color="primary" type="submit" class="w-25 align-self-end">Send</button>
-        </mat-form-field>  
+        </div>  
     </form>
 </section>

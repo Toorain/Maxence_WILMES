@@ -7,10 +7,14 @@ body {
 }
 
 mat-form-field {
-    display: flex;
+  display: flex;
 }
 
 .resize {
   height: 60px;
   border-radius: 30px;
+}
+
+.mat-form-field-empty.mat-form-field-label {
+  color: red;
 }
