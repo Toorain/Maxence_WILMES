@@ -13,16 +13,16 @@ app-root {
 }
 
 /* ---------------TEXT-------------------- */
-
-
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 1224px){
   body {
     background-image: none;
   }
+
   * {
     color: black !important;
   }
-} 
+}
+
 
 * {
   font-family: 'Orbitron';
