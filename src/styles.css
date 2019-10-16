@@ -2,13 +2,31 @@
 
 html, body { height: 100%; width: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
-  /* background-image: url(../src/assets/img/bg.jpg); background-repeat: no-repeat; background-size: cover;  */
+  background-image: url(../src/assets/img/bg.jpeg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+}
+
+app-root {
+  background-color: black;
 }
 
 /* ---------------TEXT-------------------- */
 
+
+@media only screen and (max-width : 320px) {
+  body {
+    background-image: none;
+  }
+  * {
+    color: black !important;
+  }
+} 
+
 * {
   font-family: 'Orbitron';
+  color: white;
 }
 
 .align-center {
@@ -31,7 +49,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
 
 a:hover, a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
