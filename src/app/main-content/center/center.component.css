@@ -1,4 +1,4 @@
-img {
+.shogunLogo {
   height: 250px;
   width: 250px;
   border-radius: 100%;
@@ -8,5 +8,10 @@ img {
 
 #text-bottom {
   text-align: center;
+}
+
+.social {
+  height: 3em;
+  margin: 10px;
 }
 

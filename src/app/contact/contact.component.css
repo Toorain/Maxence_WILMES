@@ -15,6 +15,3 @@ mat-form-field {
   border-radius: 30px;
 }
 
-.mat-form-field-empty.mat-form-field-label {
-  color: red;
-}
