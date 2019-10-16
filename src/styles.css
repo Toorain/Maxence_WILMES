@@ -2,10 +2,7 @@
 
 html, body { height: 100%; width: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
-  background-image: url(../src/assets/img/bg.jpeg);
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center;
+  
 }
 
 app-root {
@@ -15,7 +12,7 @@ app-root {
 /* ---------------TEXT-------------------- */
 @media only screen and (max-width : 1224px){
   body {
-    background-image: none;
+    background-image: none !important;
   }
 
   * {

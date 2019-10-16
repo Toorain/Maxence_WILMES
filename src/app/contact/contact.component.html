@@ -16,11 +16,11 @@
         </mat-form-field>
         <mat-form-field class="w-100">
             <label for="text">Text :</label>
-            <textarea matInput placeholder="Text" class="w-100" rows="10"></textarea>
+            <textarea matInput placeholder="Text" class="w-100" rows="5"></textarea>
         </mat-form-field>
-        <div class="d-flex justify-content-between align-items-center w-100">
+        <mat-form-field class="d-flex justify-content-around align-items-center w-100">        
             <a href="" [routerLink]="['/main']" routerLinkActive="router-link-active" class="lower-title">Back to main page</a>
             <button mat-raised-button color="primary" type="submit" class="w-25 align-self-end">Send</button>
-        </div>
+        </mat-form-field>  
     </form>
 </section>

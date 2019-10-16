@@ -3,6 +3,20 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+/* ---------------TEXT-------------------- */
+@media only screen and (max-width : 1224px){
+  section {
+    background-image: none !important;
+  }
+}
+
+section {
+  background-image: url(../../assets/img/bg.jpeg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+}
+
 * {
   font-family: 'Orbitron';
 }
