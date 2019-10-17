@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./center.component.css']
 })
 export class CenterComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
