@@ -3,7 +3,7 @@
     <mat-list class="left-skill">
       <mat-list-item *ngFor="let hard of hardSkills">
         <h4 mat-line>{{hard.name}}</h4>
-        <p mat-line> {{hard.description | date}} </p>
+        <p mat-line> {{hard.description}} </p>
       </mat-list-item>
     </mat-list>
   </mat-tab>
@@ -14,7 +14,7 @@
     <mat-list class="right-skill">
       <mat-list-item *ngFor="let soft of softSkills">
         <h4 mat-line>{{soft.name}}</h4>
-        <p mat-line> {{soft.description | date}} </p>
+        <p mat-line> {{soft.description}} </p>
       </mat-list-item>
     </mat-list>
   </mat-tab>

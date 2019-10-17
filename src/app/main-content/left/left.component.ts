@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 export interface Section {
   name: string;
-  description: Date;
+  description: string;
 }
 
 @Component({
@@ -14,38 +14,38 @@ export class LeftComponent implements OnInit {
     hardSkills: Section[] = [
       {
         name: 'HTML / CSS',
-        description: new Date('1/1/16'),
+        description: '& Bootstrap',
       },
       {
         name: 'JS / TS',
-        description: new Date('1/17/16'),
+        description: '& jQuery',
+      },
+      {
+        name: 'Angular',
+        description: '',
+      },
+      {
+        name: 'SQL',
+        description: '',
       },
       {
         name: 'PHP',
-        description: new Date('1/28/16'),
-      },
-      {
-        name: 'SQL',
-        description: new Date('1/28/16'),
-      },
-      {
-        name: 'SQL',
-        description: new Date('1/28/16'),
-      },
-      {
-        name: 'SQL',
-        description: new Date('1/28/16'),
+        description: '& Twig',
       }
     ];
     softSkills: Section[] = [
       {
-        name: 'Patience',
-        description: new Date('2/20/16'),
+        name: 'Resilience',
+        description: '',
       },
       {
-        name: 'Persévérance',
-        description: new Date('1/18/16'),
-      }
+        name: 'Determination',
+        description: '',
+      },
+      {
+        name: 'Curiosity',
+        description: '',
+      },
     ];
 
   constructor() { }
